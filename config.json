@@ -1,0 +1,42 @@
+{
+  "appName": "StealthBot",
+  "package": "com.stealth.bot.core",
+  "version": "1.0.0",
+  "enabled": true,
+  "timing": {
+    "scanCooldownMs": 350,
+    "minActionDelayMs": 2000,
+    "maxActionDelayMs": 12000,
+    "scrollDelayMinMs": 400,
+    "scrollDelayMaxMs": 900,
+    "stepDelayMinMs": 300,
+    "stepDelayMaxMs": 900,
+    "defaultRetries": 2
+  },
+  "screen": {
+    "baseWidth": 1080,
+    "baseHeight": 1920,
+    "defaultJitterPx": 4.0
+  },
+  "modules": [
+    "ClipboardHandler",
+    "OcrHandler",
+    "ScreenCaptureHandler",
+    "StealthShield",
+    "TextReader",
+    "TimeHandler",
+    "CoreAutomationService",
+    "DecisionEngine",
+    "GestureHandler",
+    "KeyboardSimulator",
+    "NetworkHandler",
+    "ScrollerHandler",
+    "SelectionHandler",
+    "TextTyper",
+    "WorkflowEngine",
+    "AiBridge",
+    "CoordinateMapper",
+    "ImageRecognitionHandler",
+    "QuestionAnalyzer"
+  ]
+}
